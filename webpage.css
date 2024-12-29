@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.montserrat-font1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight : 101;
+  font-style: normal;
+}
+
+#contact{
+  margin:0;
+}
+
+p {
+  color: rgb(169, 155, 155);
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  transition: font-size 0.3s ease;
+}
+
+a:hover {
+  font-size: 17px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  background-color: #191919;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #e5dede;
+  overflow:hidden;
+}
+#hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4rem 10rem;
+  gap: 2rem;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.hero-info {
+  top: -85px;
+  position: relative;
+  margin-left: 0;
+  text-align: center;
+}
+
+.hero-info p,
+.hero-info .cta {
+  margin-left: 0; /* Center-align for smaller screens */
+}
+
+.about-in-hero {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.about-line {
+  display: none; /* Hide the line on smaller screens */
+}
+
+.about-right {
+  text-align: center;
+}
+
+.about-right h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-right p {
+  line-height: 1.8;
+  text-align: justify;
+  max-width: 80%;
+}
+
+img {
+  clip-path: circle(45% at 50% 50%);
+  height: 400px;
+  background: linear-gradient(45deg, #8458B3, #6f4093, #a0d2eb);
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+  margin-top: 40px;
+  display: inline-block;
+  background: linear-gradient(135deg, black, #555, #2f4f4f, #0c490c);
+  padding: 9px;
+  clip-path: circle(45%);
+  flex-shrink: 0;
+}
+
+.image-container img {
+  clip-path: circle(44% at 50% 50%);
+  height: 400px;
+  border-radius: 50%;
+  display: block;
+}
+
+header {
+  background-color: rgba(6, 3, 4, 0.84);
+  color: #e5dede;
+  padding: 1.5rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: filter 0.3s ease;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header h1{
+  font-size: 1.7rem;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+#hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4rem 10rem;
+  gap: 2rem;
+}
+
+#hero h2 {
+  margin-left: 20px;
+  font-size: 2.5rem;
+  margin-top: 0;
+  text-align: justify; 
+}
+
+.hero-content {
+  margin-top: 84px;
+  flex: 2;
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.hero-info {
+  top: -85px;
+  position: relative;
+  margin-left: 185px ;
+  text-align:left;
+}
+
+.hero-info p {
+  margin: 0.5rem 0;
+}
+
+.hero-info .cta {
+  margin-left: 60px;
+  margin-top: 1rem;
+  padding: 0.8rem 1.3rem;
+  background-color: #8458B3;
+  color: #f9f1f1;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transform-origin: center;
+}
+
+.hero-info .cta:hover {
+  background-color: #6f4093;
+}
+
+.about-in-hero {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.about-in-hero .about-line {
+  width: 4px;
+  background-color: #555;
+  height: auto;
+}
+
+section {
+  padding: 2rem 16em;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #191919;
+  color: white;
+}
+
+.aboutme {
+  font-size: 20px;
+  color: rgb(169, 155, 155);
+}
+
+.hero-info .this{
+  margin-top:-15px;
+  margin-left: 110px;
+  margin-bottom: 11px;
+
+}
+
+.hero-info a{
+  margin-left: 40px;
+
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  width: 60%; 
+  gap: 2rem;
+}
+
+.about-line {
+  width: 3px;
+  background-color: #555;
+  height: 300px;
+  min-height: 266px;
+}
+
+.about-right {
+  flex: 0.8;
+}
+
+.about-right h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-right p {
+  line-height: 1.8  ;
+  text-align: justify;
+}
+
+i {
+  padding: 5px;
+}
+
+footer{
+  margin-top:-94px;
+  margin-bottom:5px;
+}
+
+footer .copy {
+  position: relative;
+  top: -30px;
+  background-color: rgba(6, 4, 4, 0.84);
+}
+
+footer .cta{
+  font-size: 19px;
+  transition: filter 0.3s ease;
+}
+
+footer .cta :hover {
+  filter: invert(1);
+}
+
+
+@media (max-width: 768px) {
+  body{
+    overflow: auto;
+  }
+
+  #hero {
+    flex-direction: column; 
+    padding: 3rem 1rem;
+    gap: 1rem;
+  }
+
+  #hero h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .image-container img {
+    height: 250px;
+  }
+
+  .hero-info {
+    margin-top: 1rem;
+  }
+
+  .hero-info .cta {
+    padding: 0.7rem 1rem;
+  }
+
+  .about-right p {
+    max-width: 100%; 
+  }
+}
+
+@media (max-width: 480px) {
+
+  body{
+    overflow: auto;
+  }
+  header nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  #hero h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .image-container img {
+    height: 200px;
+  }
+
+  .hero-info {
+    font-size: 0.9rem;
+  }
+
+  footer .cta {
+    font-size: 1rem;
+  }
+
+  .about-right p {
+    font-size: 0.9rem;
+  }
+}
