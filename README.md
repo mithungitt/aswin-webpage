@@ -4,7 +4,7 @@ You can add the information you need in the `<p>` tags within the html code, don
 I shall later on edit the page with everything you added to make it uniform.
 
 ## To Run
-- The file where I've made the main page is webpage.html
+- The file where I've made the main page is `webpage.html`
 - However, feel free to launch any `.html` file
 - you can use `live server` to run the pages on VS code
 
