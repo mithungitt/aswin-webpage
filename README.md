@@ -5,7 +5,8 @@ I shall later on edit the page with everything you added to make it uniform.
 
 ## To Run
 - The file where I've made the main page is webpage.html
-- you can use `live server` to run the page on VS code
+- However, feel free to launch any `.html` file
+- you can use `live server` to run the pages on VS code
 
 
 ## research cards
@@ -18,3 +19,4 @@ I shall later on edit the page with everything you added to make it uniform.
 - To make the styling uniform after inclusion of data
 - To make required changes that client wants in the further stages
 - To make the final product responsive and suitable for mobile view
+- Hosting the webpage
